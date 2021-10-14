@@ -31,19 +31,19 @@ func main() {
 	// os.Arg[1] will be the subcommand
 	if len(os.Args) < 2 || os.Args[1] == "-h" {
 		fmt.Printf(`a subcommand is required, valid options are [read|write|ls|reset]:
-read:     read variable value
-write:    write variable value
-variable: show variable info
-ls:       list devices
-reset:    reset the driver
+		read:     read variable value
+		write:    write variable value
+		variable: show variable info
+		ls:       list devices
+		reset:    reset the driver
 
-Type 
-%s -h
-for help with a verb
+		Type
+		%s -h
 
-For example to read the RevPi Core LED:
-%s read -n RevPiLED
-`, os.Args[0])
+		for help with a verb
+		For example to read the RevPi Core LED:
+		read -n RevPiLED
+		`, os.Args[0])
 		os.Exit(1)
 	}
 
