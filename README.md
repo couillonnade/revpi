@@ -1,4 +1,4 @@
-# Go library for Revolution Pi
+# FORK from Go library for Revolution Pi
 
 **This first code base is still experimental. The Go library has not been tested for a firmware update.**
 
