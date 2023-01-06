@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/torpinouche/revpi/pkg/gopicontrol"
+	"github.com/couillonnade/revpi/pkg/gopicontrol"
 )
 
 func main() {

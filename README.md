@@ -19,7 +19,7 @@ Install Go on any Linux-based system.
 To use the Go package inside your project you just need to refer to the gopicontrol package by using a standard Go import like:
 
 ```go
-import "github.com/torpinouche/revpi/pkg/gopicontrol"
+import "github.com/couillonnade/revpi/pkg/gopicontrol"
 ```
 
 It is normally faster to cross-compile the code on a decent machine and upload it to the RevPi, eg launch:
