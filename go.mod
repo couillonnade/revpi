@@ -1,4 +1,4 @@
-module github.com/torpinouche/revpi
+module github.com/couillonnade/revpi
 
 go 1.17
 
